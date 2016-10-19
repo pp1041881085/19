@@ -20,10 +20,10 @@ namespace WebApplication4.Controllers
             return View();
         }
 
-        public ActionResult List()
+        public ActionResult Welcome()
         {
-            string[] data = new string[] { "台风席卷海南 风力达到17级",
-            "台风逼近广西 学校停课" };
+            string[] data = new string[] { "10",
+            "11" };
             ViewBag.data = data;
             return View();
         }
